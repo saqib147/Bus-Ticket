@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const nodemailer = require('nodemailer');
 
-const Contact = require('../models/contactus');
+const Contact = require('../models/contactus.js');
 
 const submitContact = async (req, res) => {
   try {
